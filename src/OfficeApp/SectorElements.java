@@ -6,9 +6,8 @@ import services.Impl.ElementOfWorldServiceImpl;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseEvent;
 import java.util.List;
-import java.util.Optional;
+import java.awt.event.*;
 
 public class SectorElements extends JComponent {
     ElementOfWorldService elementOfWorldService = new ElementOfWorldServiceImpl();

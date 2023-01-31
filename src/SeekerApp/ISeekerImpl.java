@@ -14,6 +14,6 @@ public class ISeekerImpl extends UnicastRemoteObject implements ISeeker{
 
     @Override
     public String getName() throws RemoteException {
-        return null;
+        return SeekerMain.NAME_SEEKER;
     }
 }

@@ -4,7 +4,7 @@ public class ElementsOfWorld {
     private Integer i;
     private Integer j;
     private String nameOfElements;
-    private String Artifact;
+    private String artifact;
     private String nameOfSector;
     private String typeOfArtifact;
 
@@ -12,7 +12,7 @@ public class ElementsOfWorld {
         this.i = i;
         this.j = j;
         this.nameOfElements = nameOfElements;
-        Artifact = artifact;
+        this.artifact = artifact;
         this.nameOfSector = nameOfSector;
         this.typeOfArtifact = typeOfArtifact;
     }
@@ -27,11 +27,11 @@ public class ElementsOfWorld {
     }
 
     public String getArtifact() {
-        return Artifact;
+        return artifact;
     }
 
     public void setArtifact(String artifact) {
-        Artifact = artifact;
+        this.artifact = artifact;
     }
 
     public String getNameOfSector() {

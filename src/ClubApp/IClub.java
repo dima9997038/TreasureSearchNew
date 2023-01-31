@@ -1,5 +1,6 @@
 package ClubApp;
 
+import SeekerApp.ISeeker;
 import model.Report;
 
 import java.rmi.Remote;
@@ -7,7 +8,7 @@ import java.rmi.RemoteException;
 
 public interface IClub extends Remote {
 
-//    boolean register(ISeeker ic) throws RemoteException;
+    boolean register(ISeeker ic) throws RemoteException;
 
     boolean unregister(String seekerName) throws RemoteException;
 

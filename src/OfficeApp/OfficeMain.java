@@ -16,9 +16,8 @@ public class OfficeMain  {
         window.setSize(800,800);
         window.setLayout(new BorderLayout());
         window.setLocationRelativeTo(null);
-        window.setVisible(true);
         SectorElements sectorElements=new SectorElements();
         window.add(sectorElements);
-
+        window.setVisible(true);
     }
 }
